@@ -1,0 +1,25 @@
+{
+
+  project : {
+    name : 'starslam',
+    version : '1.0.0',
+    author : 'Adam Le Doux',
+
+    app : {
+      name : 'starslam',
+      package : 'org.ledoux.starslam'
+    },
+
+    build : {
+      dependencies : {
+        luxe : '*',
+      }
+    },
+
+    files : {
+      assets : 'assets/'
+    }
+
+  }
+
+}
